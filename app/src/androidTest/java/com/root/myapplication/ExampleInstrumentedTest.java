@@ -22,5 +22,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.root.myapplication", appContext.getPackageName());
+        /*添加了pull request*/
     }
 }
